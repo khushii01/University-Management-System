@@ -6,61 +6,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>University Management System</title>
     <link href="http://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link href="default.css" rel="stylesheet" type="text/css" media="all" />
 </head>
 
 <body>
-    <div id="header-wrapper">
+    <div id="header-wrapper" style="padding-top: 0%;">
         <div id="header" class="container">
             <div id="logo">
-                <h1><a href="#">Assembly</a></h1>
+                <img src="images/logo.png" style="height: 80px; width: 85px; border-radius:50%;">
             </div>
             <div id="menu">
                 <ul>
-                    <li class="active"><a href="#" accesskey="1" title="">Homepage</a></li>
-                    <li><a href="#" accesskey="2" title="">Our Clients</a></li>
-                    <li><a href="#" accesskey="3" title="">About Us</a></li>
-                    <li><a href="#" accesskey="4" title="">Careers</a></li>
-                    <li><a href="#" accesskey="5" title="">Contact Us</a></li>
+                    <li class="active"><a href="#" accesskey="1" title="">Home</a></li>
+                    <li><a href="#" accesskey="2" title="">About Us</a></li>
+                    <li><a href="#" accesskey="3" title="">Departments</a></li>
+                    <li><a href="#" accesskey="4" title="">Admission</a></li>
+                    <li><a href="#" accesskey="5" title="">Research</a></li>
                 </ul>
             </div>
         </div>
         <div id="banner" class="container">
             <div class="title">
-                <h2>Consectetuer adipiscing elit</h2>
-                <span class="byline">Donec pulvinar ullamcorper metus</span>
+                <h2>INDIRA GANDHI DELHI TECHNICAL UNIVERSITY FOR
+                    WOMEN</h2>
+                <span class="byline">(Established by Govt. of Delhi vide Act 9 of 2012)</span>
             </div>
             <ul class="actions">
-                <li><a href="#" class="button">Pulvinar mollis</a></li>
+                <li><a href="student.html" class="button">Student Login</a></li>
+                <li><a href="faculty.html" class="button">Faculty Login</a></li>
             </ul>
         </div>
     </div>
     <div id="wrapper">
-        <div id="three-column" class="container">
+        <div id="three-column" class="container" style="display: inline-flex;">
             <div class="title">
-                <h2>Feugiat lorem ipsum dolor sed veroeros</h2>
-                <span class="byline">Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue</span>
+                <img src="images/Amita-Dev.jpg" style="height: 200px; border-radius: 50%;">
+                <h2>“YOU EDUCATE A MAN, YOU EDUCATE A MAN.<br>
+                    YOU EDUCATE A WOMAN, YOU EDUCATE A GENERATION.”</h2>
+                <span class="byline">- Dr. Amita Dev<br>
+                    Vice Chancellor, IGDTUW</span>
             </div>
             <div class="boxA">
-                <p>Phasellus pellentesque, ante nec iaculis dapibus, eros justo auctor lectus, a lobortis lorem mauris
-                    quis
-                    nunc. Praesent pellentesque facilisis elit. Class aptent taciti sociosqu ad torquent per conubia
-                    nostra.
+                <p class="content-heading"><strong>Notice/Circulars</strong></p>
+                <p>
+                <ul style="text-align: left; padding-left: 50px;">
+                    <li><a href="#" class="hyperlink">Re-Examination Datesheet (MidTerm 2022)</a></li>
+                    <hr>
+                    <li><a href="#" class="hyperlink">Datesheet for Midterm Examination</a></li>
+                    <hr>
+                    <li><a href="#" class="hyperlink">Office Order for Reopening of University in Physical Mode</a></li>
+                </ul>
                 </p>
                 <a href="#" class="button button-alt">More Info</a>
             </div>
             <div class="boxB">
-                <p>Etiam neque. Vivamus consequat lorem at nisl. Nullam wisi a sem semper eleifend. Donec mattis.
-                    Phasellus
-                    pellentesque, ante nec iaculis dapibus, eros justo auctor lectus, a lobortis lorem mauris quis nunc.
+                <p class="content-heading"><strong>Upcoming Events</strong></p>
+                <p>
+                <ul style="text-align: left; padding-left: 50px;">
+                    <li><a href="#" class="hyperlink">3 Months(50 hours course) on Spanish Communication Skills</a></li>
+                    <hr>
+                    <li><a href="#" class="hyperlink">5 Days Training Program on NVIDIA DGX A 100 GPU Server</a></li>
+                    <hr>
+                    <li><a href="#" class="hyperlink">Second International Conference</a></li>
+                </ul>
                 </p>
                 <a href="#" class="button button-alt">More Info</a>
             </div>
             <div class="boxC">
-                <p> Aenean lectus lorem, imperdiet at, ultrices eget, ornare et, wisi. Pellentesque adipiscing purus.
-                    Phasellus pellentesque, ante nec iaculis dapibus, eros justo auctor lectus, a lobortis lorem mauris
-                    quis
-                    nunc.</p>
+                <p class="content-heading"><strong>Facuty Corner</strong></p>
+                <p>
+                <ul style="text-align: left; padding-left: 50px;">
+                    <li><a href="#" class="hyperlink">Circular for Student Result Upload</a></li>
+                    <hr>
+                    <li><a href="#" class="hyperlink">Upcoming List of Faculties</a></li>
+                    <hr>
+                    <li><a href="#" class="hyperlink">Office Order for Reopening of University in Physical Mode</a></li>
+                </ul>
+                </p>
                 <a href="#" class="button button-alt">More Info</a>
             </div>
         </div>
@@ -68,26 +92,63 @@
     <div id="welcome">
         <div class="container">
             <div class="title">
-                <h2>Fusce ultrices fringilla metus</h2>
-                <span class="byline">Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue</span>
+                <h2>IGDTUW on Youtube</h2>
+                <span class="byline">Find more information about the university on our official Youtube channel.</span>
             </div>
-            <p>This is <strong>Assembly</strong>, a free, fully standards-compliant CSS template designed by <a
-                    href="http://templated.co" rel="nofollow">TEMPLATED</a>. The photos in this template are from <a
-                    href="http://fotogrph.com/"> Fotogrph</a>. This free template is released under the <a
-                    href="http://templated.co/license">Creative Commons Attribution</a> license, so you're pretty much
-                free
-                to do whatever you want with it (even use it commercially) provided you give us credit for it. Have fun
-                :)
-            </p>
-            <ul class="actions">
-                <li><a href="#" class="button">Etiam posuere</a></li>
-            </ul>
+            <div style="display: inline-flex;">
+                <iframe style="margin-right: 20px;" width="350" height="250"
+                    src="https://www.youtube.com/embed/gLQQf_C7VAA" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <iframe width="350" height="250" src="https://www.youtube.com/embed/0V20KHlKIPs"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
         </div>
     </div>
-    <div id="copyright" class="container">
-        <p>&copy; Untitled. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a
-                href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li><a href="#">NPTEL</a></li>
+                            <li><a href="#">Swayam</a></li>
+                            <li><a href="#">Information Under Contract Labour Act</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="#">Anvenshan Foundation (Business Incubator)</a></li>
+                            <li><a href="#">NIRF Data</a></li>
+                            <li><a href="https://igdtuw.in/IGDTUW/login">ERP Portal</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Contacts</h3>
+                        <ul>
+                            <li><a href="#">Indira Gandhi Delhi Technical University For Women</a></li>
+                            <li><a href="#">Madrasa Road
+                                    Opposite St. James Church
+                                    Kashmere Gate
+                                    Delhi-110006</a></li>
+                            <li><a href="#">Telephone: 011- 23900261, 23900264</a></li>
+                        </ul>
+                    </div>
+                    <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i
+                                class="icon ion-social-twitter"></i></a><a href="#"><i
+                                class="icon ion-social-snapchat"></i></a><a href="#"><i
+                                class="icon ion-social-instagram"></i></a></div>
+                </div>
+                <p class="copyright">IGDTUW © 2022</p>
+            </div>
+        </footer>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
     <script src="main.js"></script>
 </body>
 
